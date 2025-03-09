@@ -1,0 +1,422 @@
+<!Doctype html>
+<html lang="es">
+<head>
+<meta charset = "UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<title> Portfolio </title>
+<link rel="stylesheet" href="estilo1.css">
+
+</head>
+<body>
+	<div class="contenedor-header">
+	<header>
+		<div class="logo">
+			<a>Max</a>
+	</div>
+	<nav id="nav">
+		<ul> 
+			<li> <a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+			<li> <a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+			<li> <a href="#skills" onclick="seleccionar()">APTITUDES Y CONOCIMIENTOS</a></li>
+			<li> <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+			
+			<li> <a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+		</ul>
+	</nav>
+	<div class="nav-responsive" onclick="mostrarOcultarMenu()">
+	<i class="fa-solid fa-bars"></i>
+</div>
+	</header>
+</div>
+<!---seccion inicio--->
+<section id="inicio" class="inicio">
+	<div class="contenido-banner">
+		<div class="contenedor-img">
+			<img src="lgo.png" alt="foto mia"
+</div>
+<h1> Maxi Lepera </h1>
+<h2> Full Stack and Software developer </h2>
+<div class ="redes">
+	<a href="a"> <i class="fa-brands fa-linkedin"></i></a>	</div>
+</section>
+<!seccion sobre mi----->
+	<section id="sobremi" class="sobremi">
+		<div class="contenido-seccion">
+			<h2>Sobre Mi</h2>
+			<p><span>Hola, soy Maxi Lepera.</span> Lorem ipsum dolor sit amet</p>
+			<div class="fila">
+				<!--datos personales---->
+				<div class="col">
+					<h3>Datos Personales</h3>
+					<ul>
+						<li>
+							<strong>Cumpleaños</strong>
+							11-09-1987
+						</li>
+						<li>
+							<strong>Telefono</strong>
+							112-182-9214
+						</li>
+						<li>
+							<strong>Email</strong>
+							leperamaxi@hotmail.com
+						</li>
+						<li>
+							<strong>Direccion</strong>
+							Villa Luzuriaga
+							
+						</li>
+						<li>
+							<strong>Website</strong>
+							www.maxi.com
+						</li>
+						<li>
+							<strong><span>Freelance</span></strong>
+							
+						</li>
+					</ul>
+		</div>
+		<div class="col">
+			<h3>Intereses</h3>
+			<div class="contenedor-intereses">
+				<div class="intereses">
+					<i class="fa-solid fa-gamepad"></i>
+					<span>JUEGOS</span>
+				</div>
+				<div class="intereses">
+					<i class="fa-solid fa-futbol"></i>
+					<span>FUTBOL</span>
+				</div>
+				<div class="intereses">
+					<i class="fa-solid fa-music"></i>
+					<span>MUSICA</span>
+				</div>
+				<div class="intereses">
+					<i class="fa-solid fa-computer"></i>
+					<span>TECNOLOGIA</span>
+				</div>
+			</div>
+		</div>
+		<br>
+		<button>
+			Descargar CV
+			<i class="fa-solid fa-download"></i>
+			<span class="overlay"></span></button>
+
+	</section>
+
+<!--- Seccion Aptitudes y conocimientos -->
+	<section class="skills" id="skills">
+		<div class="contenido-seccion">
+			<h2>skills</h2>
+			<div class="fila">
+				<div class="col">
+
+
+					<h3>Conocimientos</h3>
+					<div class="skill">
+						<span>JavaScript</span>
+						<div class="barra-skill">
+							<div class="progreso javascript">
+								<span>50%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>HTML</span>
+						<div class="barra-skill">
+							<div class="progreso html">
+								<span>75%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>CSS</span>
+						<div class="barra-skill">
+							<div class="progreso css">
+								<span>50%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Estructura de Software</span>
+						<div class="barra-skill">
+							<div class="progreso software">
+								<span>70%</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="skill">
+						<span>SQL</span>
+						<div class="barra-skill">
+							<div class="progreso sql">
+								<span>60%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>C</span>
+						<div class="barra-skill">
+							<div class="progreso c">
+								<span>50%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>.NET</span>
+						<div class="barra-skill">
+							<div class="progreso net">
+								<span>50%</span>
+							</div>
+						</div>
+					</div>
+
+					</div>
+			
+					
+
+					<div class="col">
+					<h3>Aptitudes</h3>
+
+					<div class="skill">
+						<span>Comunicacion</span>
+						<div class="barra-skill">
+							<div class="progreso comunicacion">
+								<span>80%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Trabajo en equipo</span>
+						<div class="barra-skill">
+							<div class="progreso trabajoenequipo">
+								<span>90%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Dedicacion</span>
+						<div class="barra-skill">
+							<div class="progreso dedicacion">
+								<span>80%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Autodidacta</span>
+						<div class="barra-skill">
+							<div class="progreso autodidacta">
+								<span>90%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Creatividad</span>
+						<div class="barra-skill">
+							<div class="progreso creatividad">
+								<span>80%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Resolutivo</span>
+						<div class="barra-skill">
+							<div class="progreso resolutivo">
+								<span>80%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Responsabilidad</span>
+						<div class="barra-skill">
+							<div class="progreso responsabilidad">
+								<span>100%</span>
+							</div>
+						</div>
+					</div>
+						</div>
+			</div>
+			</div>
+		</section>
+
+		<!--- Seccion Curriculum -->
+	<section id="curriculum" class="curriculum" >
+		<div class="contenido-seccion">
+			<h2>Curriculum</h2>
+			<div class="fila">
+				<div class="col izquierda">
+					<h3>Educacion</h3>
+					<div class="item izq">
+						<h4>Programacion de Aplicaciones</h4>
+						<span class="casa"> Inst. de formacion tecnica N° 46 </span>
+						<span class="fecha"> 2023 - Actual </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+						</div>
+						</div>
+						<div class="item izq">
+						<h4>Desarrollo Web</h4>
+						<span class="casa"> Ticmas </span>
+						<span class="fecha"> 2022 - 2023 </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+							
+							</div>
+						</div>
+						<div class="item izq">
+						<h4>Front End</h4>
+						<span class="casa"> Coder House </span>
+						<span class="fecha"> 2022 - 2023 </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+								
+							</div>
+						</div>
+						<div class="item izq">
+						<h4>Logica de Programacion</h4>
+						<span class="casa"> EGG Educacion </span>
+						<span class="fecha"> 2021 - 2022 </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+						</div>
+								</div>
+							</div>
+						
+					
+				
+			
+				
+			
+		
+			<div class="col derecha">
+					<h3>Experiencia</h3>
+					<div class="item der">
+						<h4>Supply Chain</h4>
+						<span class="casa"> Epsa Bio </span>
+						<span class="fecha"> 2024 - Actual </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+								
+							</div>
+						</div>
+						<div class="item der">
+						<h4>Full Stack and Software developer </h4>
+						<span class="casa"> Woder (Independiente) </span>
+						<span class="fecha"> 2023 - Actual </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+								
+							</div>
+						</div>
+						<div class="item der">
+						<h4>Dueño local gastronomico</h4>
+						<span class="casa"> La Mamucha Comidas </span>
+						<span class="fecha"> 2015 - 2024 </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+							
+							</div>
+						</div>
+						<div class="item der">
+						<h4>Analista de pago a proveedores</h4>
+						<span class="casa"> Itron S.A. </span>
+						<span class="fecha"> 2014 - 2015 </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+								
+							</div>
+						</div>
+						<div class="item der">
+						<h4>Analista cuentas a pagar</h4>
+						<span class="casa"> Itron S.A. </span>
+						<span class="fecha"> 2014 - 2015 </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+								
+							</div>
+						</div>
+						<div class="item der">
+						<h4>Analista cuentas a pagar</h4>
+						<span class="casa"> CH2M Hill </span>
+						<span class="fecha"> 2011 - 2013 </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+								
+							</div>
+						</div>
+						<div class="item der">
+						<h4>Auxiliar de impuestos</h4>
+						<span class="casa"> Danone S.A. </span>
+						<span class="fecha"> 2009 - 2010 </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+								
+							</div>
+						</div>
+						<div class="item der">
+						<h4>Analista de pago a proveedores</h4>
+						<span class="casa"> Fibra Papelera S.A. </span>
+						<span class="fecha"> 2006 - 2009 </span>
+						<div class="conectori">
+							<div class="circuloi"></div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+	</div>
+</div>
+	</section>
+<!-- SECCION Contacto--->
+	<section id="contacto" class="contacto">
+		<div class="contenido-seccion">
+			<h2>CONTACTO</h2>
+			<div class="fila">
+				<!--formulario-->
+				<div class="col">
+					<input type="text" name="Tu Nombre" placeholder="Tu Nombre">
+					<input type="text" name="Numero de Telefono"placeholder="Numero de Telefono">
+					<input type="text" name="Email"placeholder="Email">
+					<input type="text" name="Asunto"placeholder="Asunto">
+					<textarea name="" id="" cols="38" rows="18" placeholder="Mensaje"></textarea>
+					<button>
+						Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+					</button>
+				</div>
+				<div class="col">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.698993356103!2d-58.5787384!3d-34.66230399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7b8426453cb%3A0x6b18e48db18e75ed!2sEntre%20R%C3%ADos%201046%2C%20B1753ASV%20Villa%20Luzuriaga%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1741478329923!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<div class="info">
+						<ul>
+							<li>
+								<i class="fa-solid fa-location-dot"></i>
+								Entre Rios 1046, Villa Luzuriaga
+							</li>
+							<li>
+								<i class="fa-solid fa-phone-volume"></i>
+								Comunicate con el 152-182-9214
+							</li>
+							<li>
+								<i class="fa-solid fa-envelope"></i>
+								Contactanos a leperamaxi@hotmail.com
+							</li>
+					</div>
+
+				</div>
+			</div>
+		
+	</section>
+	<!--Pie Pagina-->
+	<footer>
+		<a href="#inicio" class="arriba">
+			<i class="fa-solid fa-angles-up"></i>
+		</a>
+		<div class ="redes">
+	<a href="a"> <i class="fa-brands fa-linkedin"></i></a>	</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
